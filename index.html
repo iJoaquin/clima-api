@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <section id="seccion_inicio">
+
+        <div class="div_imagen_inicio">
+
+            <img src="clima.png" alt="">
+
+        </div>
+
+        <div class="div_texto_inicio">
+
+            <p>Descubre el pronóstico del tiempo para cualquier ciudad del mundo con la API</p>
+            <p>Obtén información detallada sobre la temperatura, ambiente, humedad y viento</p>
+
+        </div>
+
+        <div class="div_boton_inicio">
+
+            <button id="boton_inicio" type="button">Comenzar</button>
+
+        </div>
+
+    </section>
+
+
+    <section id="seccion_general">
+
+        <div class="div_general">
+
+            <h1>Wheater API</h1>
+            <img src="clima.png" alt="">
+    
+        </div>
+    
+        <form id="form_clima">
+    
+            <input type="text" id="input_clima" placeholder="Ciudad...">
+            <button type="submit" id="boton_clima">Ver</button>
+    
+        </form>
+
+        <div id="datos_clima">
+    
+            <div class="div_icono_temperatura">
+    
+                <img src="" alt="">
+                <h3 class="titulo_temperatura"></h3>
+    
+            </div>
+    
+            <div class="div_ambiente">
+    
+                <h3 class="titulo_ambiente"></h3>
+    
+            </div>
+
+            <div class="div_pais">
+
+                <h3 class="titulo_pais"></h3>
+
+            </div>
+
+            <div class="div_hora">
+
+                <h3 class="titulo_hora"></h3>
+
+            </div>
+    
+            <div class="div_detalles">
+        
+                <div>Se siente</div>
+                <div>Humedad</div>
+                <div>Viento</div>
+    
+            </div>
+
+            <div class="div_max_min">
+                <div>Temp máx/Temp min</div>
+                <!--<div>Temp min</div>-->
+            </div>
+    
+        </div>
+
+    </section>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</body>
+</html>
